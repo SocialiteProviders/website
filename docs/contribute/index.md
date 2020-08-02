@@ -10,6 +10,8 @@ title: Contribute
 * Create a listener/handler
 * Create a composer.json file and add <em>socialiteproviders/manager</em> (<a href="https://github.com/SocialiteProviders/Manager">See the manager package.</a>) in the "require" section.
 * If using OAuth1 you need to also create a server class.
+* Generate documentation for the provider by running `docgen.php` in the `tools` folder. (and customise if required).
+* Add the provider to the `monorepo-builder.yml` subtree split config in the repository root.
 
 To speed up the creation of your provider you can use the <a href="https://github.com/SocialiteProviders/Generators">generator</a>.
 

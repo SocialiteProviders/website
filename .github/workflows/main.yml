@@ -4,8 +4,8 @@ on:
     - cron: '0 */12 * * *'
 jobs:
   build:
-    name: Request Netlify Webhook
+    name: Deploy Vercel Site
     runs-on: ubuntu-latest
     steps:
       - name: Curl request
-        run: curl -X POST -d {} https://api.netlify.com/build_hooks/5dae519fcc4e78b40aa71f55
+        run: curl -X POST -d {} $DEPLOY_HOOK

@@ -46,15 +46,11 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'Google', name: 'Google',
+        slug: 'Google-Plus', name: 'Google',
         maintainers: [],
       },
       {
         slug: 'Imgur', name: 'Imgur',
-        maintainers: [],
-      },
-      {
-        slug: 'Instagram', name: 'Instagram',
         maintainers: [],
       },
       {
@@ -70,7 +66,7 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'LaravelPassport', name: 'LaravelPassport',
+        slug: 'Laravel-Passport', name: 'LaravelPassport',
         maintainers: [],
       },
       {
@@ -254,7 +250,7 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'AppNet', name: 'AppNet',
+        slug: 'App.net', name: 'AppNet',
         maintainers: [],
       },
       {
@@ -294,7 +290,7 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'Bitly', name: 'Bitly',
+        slug: 'Bit.ly', name: 'Bitly',
         maintainers: [],
       },
       {
@@ -370,7 +366,7 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'HumanApi', name: 'Human-API',
+        slug: 'Human-Api', name: 'Human API',
         maintainers: [],
       },
       {
@@ -534,7 +530,7 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'PayPalSandbox', name: 'PayPalSandbox',
+        slug: 'PayPal-Sandbox', name: 'PayPalSandbox',
         maintainers: [],
       },
       {
@@ -645,7 +641,7 @@ module.exports = [
   },
   {
     name: 'Deprecated', collapsable: true, providers: [
-      { slug: 'hipchat', name: 'HipChat' },
+      { slug: 'Instagram', name: 'Instagram' },
     ],
   },
 ]

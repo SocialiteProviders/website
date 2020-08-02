@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: Get Started →
-actionLink: /about.html
+actionLink: /about/
 features:
 - title: Simplicity First
   details: Minimal setup with a familiar structure helps you focus on developing your newest product.
@@ -9,7 +9,7 @@ features:
   details: Following the same API as Laravel Socialite allows for a seamless integration.
 - title: Powerful Support
   details: The Socialite Manager grants you access to both custom and official providers.
-footer: MIT Licensed | Copyright © 2018-present SocialiteProviders
+footer: MIT Licensed | Copyright © 2020
 ---
 
 

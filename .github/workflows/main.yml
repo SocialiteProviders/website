@@ -1,4 +1,4 @@
-name: Trigger Netlify Build
+name: Trigger Vercel Deployment
 on:
   schedule:
     - cron: '0 */12 * * *'

@@ -9,8 +9,15 @@ features:
   details: Following the same API as Laravel Socialite allows for a seamless integration.
 - title: Powerful Support
   details: The Socialite Manager grants you access to both custom and official providers.
-footer: MIT Licensed | Copyright © 2020
 ---
+
+<style>
+.maintain {
+    display: block;
+    margin-top: 0.3em;
+    color: #989898;
+}
+</style>
 
 
 ``` bash
@@ -34,3 +41,8 @@ protected $listen = [
 # start building
 return Socialite::with('twitter')->redirect();
 ```
+
+<div class="footer">
+    MIT Licensed | Copyright © {{ (new Date).getFullYear() }} | <a href="https://github.com/orgs/socialiteproviders/people">Contributors</a>
+    <small class="maintain">Maintained by <a href="https://atymic.dev">atymic</a></small>
+</div>

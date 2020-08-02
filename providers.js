@@ -54,7 +54,11 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'InstagramBasic', name: 'InstagramBasic',
+        slug: 'Instagram', name: 'Instagram',
+        maintainers: [],
+      },
+      {
+        slug: 'InstagramBasic', name: 'Instagram Basic',
         maintainers: [],
       },
       {
@@ -645,7 +649,6 @@ module.exports = [
   },
   {
     name: 'Deprecated', collapsable: true, providers: [
-      { slug: 'Instagram', name: 'Instagram' },
     ],
   },
 ]

@@ -1,4 +1,4 @@
-name: Trigger Vercel Deployment
+name: Trigger Netlify Deployment
 on:
   schedule:
     - cron: '0 */12 * * *'
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Deploy Vercel Site
+    name: Deploy Netlify Site
     runs-on: ubuntu-latest
     steps:
       - name: Curl request

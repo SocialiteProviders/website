@@ -2,6 +2,8 @@ name: Trigger Netlify Build
 on:
   schedule:
     - cron: '0 */12 * * *'
+  workflow_dispatch:
+
 jobs:
   build:
     name: Deploy Vercel Site

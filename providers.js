@@ -30,10 +30,6 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'Facebook', name: 'Facebook',
-        maintainers: [],
-      },
-      {
         slug: 'Flickr', name: 'Flickr',
         maintainers: [],
       },
@@ -382,10 +378,6 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'HubSpot', name: 'HubSpot',
-        maintainers: [],
-      },
-      {
         slug: 'Intercom', name: 'Intercom',
         maintainers: [],
       },
@@ -490,10 +482,6 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'Unsplash', name: 'Unsplash',
-        maintainers: [],
-      },
-      {
         slug: 'Zendesk', name: 'Zendesk',
         maintainers: [],
       },
@@ -527,10 +515,6 @@ module.exports = [
     name: 'Payments', providers: [
       {
         slug: 'Coinbase', name: 'Coinbase',
-        maintainers: [],
-      },
-      {
-        slug: 'AngelList', name: 'AngelList',
         maintainers: [],
       },
       {

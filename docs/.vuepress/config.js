@@ -95,12 +95,12 @@ This provider is deprecated. Please see the [GitHub Repo](https://github.com/Soc
     '../../providers.js'
   ],
   plugins: [
-    // [
-    //   '@vuepress/google-analytics',
-    //   {
-    //     'ga': 'UA-150688103-1'
-    //   }
-    // ]
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-174251203-1'
+      }
+    ]
   ]
 }
 

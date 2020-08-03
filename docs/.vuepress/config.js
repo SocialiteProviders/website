@@ -25,8 +25,8 @@ module.exports = {
     nav: [
       { text: 'About / FAQ', link: '/about' },
       { text: 'Contribute', link: '/contribute' },
-      { text: 'Github', link: 'https://github.com/SocialiteProviders', },
-      { text: 'Packagist', link: 'https://packagist.org/packages/socialiteproviders/', },
+      { text: 'Github', link: 'https://github.com/SocialiteProviders' },
+      { text: 'Packagist', link: 'https://packagist.org/packages/socialiteproviders/' },
     ],
     sidebar: [
       {
@@ -36,8 +36,8 @@ module.exports = {
           ['/about/', 'About / FAQ'],
           ['/usage/', 'Installation & Usage'],
           ['/contribute/', 'Contribute'],
-        ]
-      }
+        ],
+      },
     ].concat(generatedSidebar),
   },
   async additionalPages () {
@@ -45,7 +45,7 @@ module.exports = {
 
     categories.map(cat => {
       cat.providers.map(c => {
-        if (cat.name === 'Deprecated') c.deprecated = true;
+        if (cat.name === 'Deprecated') c.deprecated = true
         allProviders.push(c)
       })
     })
@@ -54,10 +54,10 @@ module.exports = {
     const { mapLimit } = require('async')
 
     return await mapLimit(allProviders, 3, async (provider) => {
-      if (!global['REPO_CACHE']) global['REPO_CACHE'] = {};
+      if (!global['REPO_CACHE']) global['REPO_CACHE'] = {}
 
       if (!global['REPO_CACHE'][provider.slug]) {
-        let content;
+        let content
         try {
           const res = await axios.get(`https://raw.githubusercontent.com/SocialiteProviders/${provider.slug}/master/README.md`)
           content = res.data
@@ -67,7 +67,8 @@ module.exports = {
           content = ''
         }
 
-        content = `<ProviderHeader slug="${provider.slug}" :maintainers='${JSON.stringify(provider.maintainers)}'></ProviderHeader>\n` + content
+        content = `<ProviderHeader slug="${provider.slug}" :maintainers='${JSON.stringify(provider.maintainers)}'></ProviderHeader>\n` +
+          content
 
         if (provider.deprecated) {
           content = `::: danger
@@ -89,19 +90,25 @@ This provider is deprecated. Please see the [GitHub Repo](https://github.com/Soc
     ['link', { rel: 'icon" type="image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
     ['link', { rel: 'icon" type="image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-    ['style', {}, 'img + .icon.outbound {display: none;}']
+    ['style', {}, 'img + .icon.outbound {display: none;}'],
   ],
   extraWatchFiles: [
-    '../../providers.js'
+    '../../providers.js',
   ],
   plugins: [
     [
       '@vuepress/google-analytics',
       {
-        'ga': 'UA-174251203-1'
-      }
+        'ga': 'UA-174251203-1',
+      },
+    ],
+    [
+      'sitemap',
+      {
+        hostname: 'https://socialiteproviders.com',
+      },
     ]
-  ]
+  ],
 }
 
 

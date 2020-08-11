@@ -154,6 +154,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Telegram', name: 'Telegram',
+        maintainers: ['Max13'],
+      },
+      {
         slug: 'Tumblr', name: 'Tumblr',
         maintainers: [],
       },

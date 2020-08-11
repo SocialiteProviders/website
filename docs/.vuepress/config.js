@@ -17,8 +17,8 @@ module.exports = {
 
   themeConfig: {
     algolia: {
-      // apiKey: '662d6a5e1b798d17b5eaaeb770b415e7',
-      // indexName: 'SocialiteProviders'
+      apiKey: '0e200be675661f6f31335298fa29523b',
+      indexName: 'socialiteproviders'
     },
     providerCount: categories.reduce((count, cat) => count + cat.providers.length, 0),
     sidebarDepth: 1,

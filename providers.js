@@ -486,6 +486,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Whmcs', name: 'WHMCS',
+        maintainers: ['Max13'],
+      },
+      {
         slug: 'Zendesk', name: 'Zendesk',
         maintainers: [],
       },

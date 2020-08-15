@@ -23,8 +23,8 @@ module.exports = {
     providerCount: categories.reduce((count, cat) => count + cat.providers.length, 0),
     sidebarDepth: 1,
     nav: [
-      { text: 'About / FAQ', link: '/about' },
-      { text: 'Contribute', link: '/contribute' },
+      { text: 'About / FAQ', link: '/about/' },
+      { text: 'Contribute', link: '/contribute/' },
       { text: 'Github', link: 'https://github.com/SocialiteProviders' },
       { text: 'Packagist', link: 'https://packagist.org/packages/socialiteproviders/' },
     ],

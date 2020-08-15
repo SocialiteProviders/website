@@ -72,7 +72,7 @@ See your provider README for more infomation on the required config.
 * You should now be able to use it like you would regularly use Socialite (assuming you have the facade installed):
 
 ```php
-return Socialite::with('zoho')->redirect();
+return Socialite::driver('zoho')->redirect();
 ```
 
 ### Lumen Support
@@ -92,10 +92,10 @@ Also, configs cannot be parsed from the `services[]` in Lumen.  You can only set
 
 ```php
 // to turn off stateless
-return Socialite::with('zoho')->stateless(false)->redirect();
+return Socialite::driver('zoho')->stateless(false)->redirect();
 
 // to use stateless
-return Socialite::with('zoho')->stateless()->redirect();
+return Socialite::driver('zoho')->stateless()->redirect();
 ```
 
 ### Overriding a config
@@ -108,7 +108,7 @@ $clientSecret = "secret";
 $redirectUrl = "http://yourdomain.com/api/redirect";
 $additionalProviderConfig = ['site' => 'meta.stackoverflow.com'];
 $config = new \SocialiteProviders\Manager\Config($clientId, $clientSecret, $redirectUrl, $additionalProviderConfig);
-return Socialite::with('zoho')->setConfig($config)->redirect();
+return Socialite::driver('zoho')->setConfig($config)->redirect();
 ```
 
 ### Retrieving the Access Token Response Body

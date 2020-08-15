@@ -39,7 +39,7 @@ protected $listen = [
 ]
 
 # start building
-return Socialite::with('twitter')->redirect();
+return Socialite::driver('twitter')->redirect();
 ```
 
 <div class="footer">

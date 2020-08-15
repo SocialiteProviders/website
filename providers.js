@@ -246,7 +246,7 @@ module.exports = [
         maintainers: ['robiiinos'],
       },
       {
-        slug: 'StreamLabs', name: 'StreamLabs',
+        slug: 'Streamlabs', name: 'Streamlabs',
         maintainers: ['robiiinos'],
       },
       {

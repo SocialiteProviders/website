@@ -522,6 +522,12 @@ module.exports = [
   {
     name: 'Payments', providers: [
       {
+        slug: 'Binance', name: 'Binance',
+        maintainers: [
+          'robiiinos',
+        ],
+      },
+      {
         slug: 'Coinbase', name: 'Coinbase',
         maintainers: [],
       },

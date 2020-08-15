@@ -418,6 +418,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Ovh', name: 'OVH',
+        maintainers: ['Max13'],
+      },
+      {
         slug: 'Pipedrive', name: 'Pipedrive',
         maintainers: [],
       },

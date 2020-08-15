@@ -242,6 +242,14 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'StreamElements', name: 'StreamElements',
+        maintainers: ['robiiinos'],
+      },
+      {
+        slug: 'StreamLabs', name: 'StreamLabs',
+        maintainers: ['robiiinos'],
+      },
+      {
         slug: 'Twitch', name: 'Twitch',
         maintainers: [],
       },

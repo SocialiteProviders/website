@@ -126,6 +126,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Pixnet', name: 'Pixnet',
+        maintainers: ['binotaliu'],
+      },
+      {
         slug: 'Pushbullet', name: 'Pushbullet',
         maintainers: [],
       },

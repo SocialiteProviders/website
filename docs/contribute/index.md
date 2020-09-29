@@ -25,7 +25,7 @@ Send new provider pull requests to the <a href="https://github.com/SocialiteProv
 
 Below is an example handler. You need to add the fully qualified class name to the `listen[]` in the `EventServiceProvider`.
 
-* <a href="http://laravel.com/docs/5.0/events">See also the Laravel docs about events</a>
+* <a href="https://laravel.com/docs/8.x/events">See also the Laravel docs about events</a>
 * `providername` is the name of the provider such as `meetup`.
 * You will need to change the namespaces to match your vendor and package name.
 
@@ -46,7 +46,7 @@ class ProviderNameExtendSocialite
 ## Resources
 
 * <a href="https://medium.com/@morrislaptop/adding-auth-providers-to-laravel-socialite-ca0335929e42">See this article on Medium</a> about creating a new provider
-* <a href="http://laravel.com/docs/5.0/events">Laravel docs on events</a>
+* <a href="https://laravel.com/docs/8.x/events">Laravel docs on events</a>
 
 ## Overriding a Built-in Provider
 

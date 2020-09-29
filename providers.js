@@ -38,6 +38,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Gitea', name: 'Gitea',
+        maintainers: ['ederuiter'],
+      },
+      {
         slug: 'GitHub', name: 'GitHub',
         maintainers: [],
       },

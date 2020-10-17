@@ -138,6 +138,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Slack', name: 'Slack',
+        maintainers: [],
+      },
+      {
         slug: 'Steem', name: 'Steem',
         maintainers: [],
       },

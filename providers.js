@@ -536,6 +536,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Gumroad', name: 'Gumroad',
+        maintainers: ['m1guelpf'],
+      },
+      {
         slug: 'MediaCube', name: 'MediaCube',
         maintainers: [],
       },

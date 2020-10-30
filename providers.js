@@ -410,6 +410,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'MercadoLibre', name: 'MercadoLibre',
+        maintainers: ['MarianoMoreyra'],
+      },
+      {
         slug: 'Netlify', name: 'Netlify',
         maintainers: [],
       },

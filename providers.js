@@ -466,6 +466,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'SuperOffice', name: 'SuperOffice',
+        maintainers: [],
+      },
+      {
         slug: 'Teamleader', name: 'Teamleader',
         maintainers: [],
       },

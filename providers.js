@@ -94,6 +94,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Microsoft-Azure', name: 'Microsoft Azure',
+        maintainers: [],
+      },
+      {
         slug: 'Naver', name: 'Naver',
         maintainers: [],
       },
@@ -679,10 +683,6 @@ module.exports = [
   },
   {
     name: 'Deprecated', collapsable: true, providers: [
-      {
-        slug: 'Microsoft-Azure', name: 'Microsoft Azure',
-        maintainers: [],
-      },
       {
         slug: 'Microsoft-Graph', name: 'Microsoft Graph',
         maintainers: [],

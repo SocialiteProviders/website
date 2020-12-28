@@ -471,7 +471,7 @@ module.exports = [
       },
       {
         slug: 'SuperOffice', name: 'SuperOffice',
-        maintainers: [],
+        maintainers: ['SuperDJ'],
       },
       {
         slug: 'Teamleader', name: 'Teamleader',
@@ -512,6 +512,10 @@ module.exports = [
       {
         slug: 'Zoho', name: 'Zoho',
         maintainers: [],
+      },
+      {
+        slug: 'Zoom', name: 'Zoom',
+        maintainers: ['craigpaul'],
       },
     ],
   },
@@ -558,6 +562,10 @@ module.exports = [
       {
         slug: 'Mollie', name: 'Mollie',
         maintainers: [],
+      },
+      {
+        slug: 'Monzo', name: 'Monzo',
+        maintainers: ['warksit'],
       },
       {
         slug: 'Patreon', name: 'Patreon',
@@ -634,6 +642,10 @@ module.exports = [
       {
         slug: 'Douban', name: 'Douban',
         maintainers: [],
+      },
+      {
+        slug: 'Fablabs', name: 'Fablabs',
+        maintainers: ['MacTwister'],
       },
       {
         slug: 'Fitbit', name: 'Fitbit',

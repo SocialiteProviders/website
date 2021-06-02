@@ -422,6 +422,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Notion', name: 'Notion',
+        maintainers: [],
+      },
+      {
         slug: 'OSChina', name: 'OSChina',
         maintainers: [],
       },
@@ -666,6 +670,10 @@ module.exports = [
       {
         slug: 'RunKeeper', name: 'RunKeeper',
         maintainers: [],
+      },
+      {
+        slug: 'Saml2', name: 'Saml2',
+        maintainers: ['27pchrisl'],
       },
       {
         slug: 'Strava', name: 'Strava',

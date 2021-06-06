@@ -302,6 +302,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Atlassian', name: 'Atlassian',
+        maintainers: [],
+      },
+      {
         slug: 'Aweber', name: 'Aweber',
         maintainers: [],
       },
@@ -387,10 +391,6 @@ module.exports = [
       },
       {
         slug: 'Intercom', name: 'Intercom',
-        maintainers: [],
-      },
-      {
-        slug: 'Jira', name: 'Jira',
         maintainers: [],
       },
       {
@@ -713,6 +713,10 @@ module.exports = [
       },
       {
         slug: 'Microsoft-TeamService', name: 'Microsoft TeamService',
+        maintainers: [],
+      },
+      {
+        slug: 'Jira', name: 'Jira',
         maintainers: [],
       },
     ],

@@ -154,6 +154,10 @@ module.exports = [
         maintainers: ['Max13'],
       },
       {
+        slug: 'TikTok', name: 'TikTok',
+        maintainers: ['tombanksme'],
+      },
+      {
         slug: 'Tumblr', name: 'Tumblr',
         maintainers: [],
       },
@@ -223,6 +227,10 @@ module.exports = [
       },
       {
         slug: 'Discord', name: 'Discord',
+        maintainers: [],
+      },
+      {
+        slug: 'Eveonline', name: 'Eveonline',
         maintainers: [],
       },
       {

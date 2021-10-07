@@ -10,6 +10,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Cognito', name: 'Cognito',
+        maintainers: ['JamesSiebert'],
+      },
+      {
         slug: 'Dailymotion', name: 'Dailymotion',
         maintainers: [],
       },
@@ -232,6 +236,10 @@ module.exports = [
       {
         slug: 'Eveonline', name: 'Eveonline',
         maintainers: [],
+      },
+      {
+        slug: 'Lichess', name: 'Lichess',
+        maintainers: ['Waxmatuct'],
       },
       {
         slug: 'ProjectV', name: 'ProjectV',
@@ -512,6 +520,10 @@ module.exports = [
       {
         slug: 'VersionOne', name: 'VersionOne',
         maintainers: [],
+      },
+      {
+        slug: 'Webex', name: 'Webex',
+        maintainers: ['askmrsinh'],
       },
       {
         slug: 'Whmcs', name: 'WHMCS',

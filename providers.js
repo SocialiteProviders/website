@@ -334,6 +334,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Bitrix24', name: 'Bitrix24',
+        maintainers: [],
+      },
+      {
         slug: 'Box', name: 'Box',
         maintainers: [],
       },

@@ -242,6 +242,10 @@ module.exports = [
         maintainers: ['Waxmatuct'],
       },
       {
+        slug: 'Minecraft', name: 'Minecraft',
+        maintainers: ['Katzen48 | Tobi'],
+      },
+      {
         slug: 'ProjectV', name: 'ProjectV',
         maintainers: [],
       },

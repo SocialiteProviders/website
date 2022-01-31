@@ -243,7 +243,7 @@ module.exports = [
       },
       {
         slug: 'Minecraft', name: 'Minecraft',
-        maintainers: ['Katzen48 | Tobi'],
+        maintainers: ['Katzen48'],
       },
       {
         slug: 'ProjectV', name: 'ProjectV',

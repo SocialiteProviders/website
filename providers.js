@@ -438,6 +438,10 @@ module.exports = [
         maintainers: ['MarianoMoreyra'],
       },
       {
+        slug: 'Monday', name: 'Monday',
+        maintainers: ['amiranagram'],
+      },
+      {
         slug: 'Netlify', name: 'Netlify',
         maintainers: [],
       },

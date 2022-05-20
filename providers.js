@@ -322,6 +322,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: '37Signals', name: '37Signals',
+        maintainers: [],
+      },
+      {
         slug: 'Atlassian', name: 'Atlassian',
         maintainers: [],
       },

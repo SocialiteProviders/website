@@ -6,6 +6,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Authentik', name: 'Authentik',
+        maintainers: ['rf152'],
+      },
+      {
         slug: 'Auth0', name: 'Auth0',
         maintainers: [],
       },

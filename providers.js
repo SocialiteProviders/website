@@ -126,6 +126,10 @@ module.exports = [
         maintainers: ['binotaliu'],
       },
       {
+        slug: 'PlanningCenter', name: 'Planning Center',
+        maintainers: ['duncanmcclean'],
+      },
+      {
         slug: 'Pushbullet', name: 'Pushbullet',
         maintainers: [],
       },

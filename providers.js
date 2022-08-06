@@ -46,6 +46,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'FusionAuth', name: 'FusionAuth',
+        maintainers: ['danilopolani'],
+      },
+      {
         slug: 'Gitea', name: 'Gitea',
         maintainers: ['ederuiter'],
       },

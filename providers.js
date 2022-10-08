@@ -126,6 +126,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Pr0gramm', name: 'Pr0gramm',
+        maintainers: ['Tschucki'],
+      },
+      {
         slug: 'Pinterest', name: 'Pinterest',
         maintainers: [],
       },
@@ -233,10 +237,6 @@ module.exports = [
         slug: 'Zalo', name: 'Zalo',
         maintainers: [],
       },
-      {
-        slug: 'Pr0gramm', name: 'Pr0gramm',
-        maintainers: ['Tschucki'],
-      }
     ],
   },
   {

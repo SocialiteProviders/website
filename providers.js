@@ -233,6 +233,10 @@ module.exports = [
         slug: 'Zalo', name: 'Zalo',
         maintainers: [],
       },
+      {
+        slug: 'Pr0gramm', name: 'Pr0gramm',
+        maintainers: ['Tschucki'],
+      }
     ],
   },
   {

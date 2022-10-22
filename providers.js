@@ -285,6 +285,10 @@ module.exports = [
         slug: 'Twitch', name: 'Twitch',
         maintainers: [],
       },
+      {
+        slug: 'Vatsim', name: 'VATSIM',
+        maintainers: [],
+      },
     ],
   },
   {

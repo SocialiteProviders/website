@@ -15,13 +15,13 @@ Providers have been created by a wide range of people, and the specific creator 
 
 Providers are mostly maintained by <a href="https://atymic.dev">@atymic</a> and <a href="https://github.com/lucasmichot">@lucasmichot</a>.
 
-## Provider Issues 
+## Provider Issues
 
 Please create an issue on the [Monorepo](https://github.com/SocialiteProviders/Providers), ideally with an accompanying PR to fix it :)
 
 ## Provider Requests
 
-Please create a comment on [this issue](https://github.com/SocialiteProviders/Providers/issues/7510). Then ideally create a PR, following the instructions on the [contributing page](https://socialiteproviders.com/contribute/).
+Please create a comment on [this issue](https://github.com/SocialiteProviders/Providers/issues/751). Then ideally create a PR, following the instructions on the [contributing page](https://socialiteproviders.com/contribute/).
 
 ## Credits
 

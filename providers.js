@@ -590,6 +590,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'GovBR', name: 'GovBR',
+        maintainers: ['saade'],
+      },
+      {
         slug: 'IFSP', name: 'IFSP',
         maintainers: [],
       },

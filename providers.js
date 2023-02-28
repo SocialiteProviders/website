@@ -126,7 +126,7 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'pr0gramm', name: 'pr0gramm',
+        slug: 'Pr0gramm', name: 'pr0gramm',
         maintainers: ['Tschucki'],
       },
       {

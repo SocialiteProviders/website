@@ -763,6 +763,10 @@ module.exports = [
         slug: 'Withings', name: 'Withings',
         maintainers: [],
       },
+      {
+        slug: 'Worldcoin', name: 'Worldcoin',
+        maintainers: ['m1guelpf'],
+      },
     ],
   },
   {

@@ -111,6 +111,8 @@ $config = new \SocialiteProviders\Manager\Config($clientId, $clientSecret, $redi
 return Socialite::driver('zoho')->setConfig($config)->redirect();
 ```
 
+Note: even if you use dynamic config, you still need to add configuration array in the services.php file, it is required for the provider to boot, you can keep the values in the .env empty.
+
 ### Retrieving the Access Token Response Body
 
 Laravel Socialite by default only allows access to the `access_token`.  Which can be accessed

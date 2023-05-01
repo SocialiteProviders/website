@@ -598,6 +598,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'LifeScienceLogin', name: 'Life Science Login',
+        maintainers: ['mzur'],
+      },
+      {
         slug: 'UCL', name: 'UCL',
         maintainers: [],
       },

@@ -330,6 +330,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Usos', name: 'USOS',
+        maintainers: [],
+      },
+      {
         slug: 'Xing', name: 'Xing',
         maintainers: [],
       },

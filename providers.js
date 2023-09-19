@@ -716,6 +716,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'AutodeskAPS', name: 'Autodesk APS',
+        maintainers: ['SuperDJ'],
+      },
+      {
         slug: 'Douban', name: 'Douban',
         maintainers: [],
       },

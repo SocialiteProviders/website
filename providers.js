@@ -270,6 +270,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Start.gg', name: 'Start.gg',
+        maintainers: ['nickbeen'],
+      },
+      {
         slug: 'Steam', name: 'Steam',
         maintainers: [],
       },

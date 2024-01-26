@@ -78,6 +78,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'JumpCloud', name: 'JumpCloud',
+        maintainers: [],
+      },
+      {
         slug: 'Kakao', name: 'Kakao',
         maintainers: [],
       },

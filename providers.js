@@ -18,6 +18,10 @@ module.exports = [
         maintainers: ['JamesSiebert'],
       },
       {
+        slug: 'Clerk', name: 'Clerk',
+        maintainers: ['ignaciojcano'],
+      },
+      {
         slug: 'Dailymotion', name: 'Dailymotion',
         maintainers: [],
       },

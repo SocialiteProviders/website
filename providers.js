@@ -90,6 +90,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Kanidm', name: 'Kanidm',
+        maintainers: [],
+      },
+      {
         slug: 'Keycloak', name: 'Keycloak',
         maintainers: [],
       },

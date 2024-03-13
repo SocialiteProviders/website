@@ -644,6 +644,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Clover', name: 'Clover',
+        maintainers: [],
+      },
+      {
         slug: 'Gumroad', name: 'Gumroad',
         maintainers: ['m1guelpf'],
       },

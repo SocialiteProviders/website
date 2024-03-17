@@ -30,6 +30,46 @@ For example:
 
 ## 3. Event Listener
 
+### Laravel 11+
+
+In Laravel 11, the default `EventServiceProvider` provider was removed. Instead, add the listener using the `listen` method on the `Event` facade, in your `AppServiceProvider`
+
+* Note: You do not need to add anything for the built-in socialite providers unless you override them with your own providers.
+
+```php
+namespace App\Providers;
+
+use Illuminate\Support\Facades\Event;
+use Illuminate\Support\ServiceProvider;
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * Register any application services.
+     */
+    public function register(): void
+    {
+        //
+    }
+
+    /**
+     * Bootstrap any application services.
+     */
+    public function boot(): void
+    {
+        Event::listen(function (\SocialiteProviders\Manager\SocialiteWasCalled $event) {
+            $event->extendSocialite('discord', \SocialiteProviders\Steam\Provider::class);
+        });
+    }
+}
+```
+
+#### Reference
+
+* [Laravel 11 docs about events](http://laravel.com/docs/11.0/events)
+
+### Laravel 10 or below
+
 * Add `SocialiteProviders\Manager\SocialiteWasCalled` event to your `listen[]` array  in `app/Providers/EventServiceProvider`.
 
 * Add your listeners (i.e. the ones from the providers) to the `SocialiteProviders\Manager\SocialiteWasCalled[]` that you just created.
@@ -56,7 +96,7 @@ protected $listen = [
 
 #### Reference
 
-* [Laravel docs about events](http://laravel.com/docs/5.0/events)
+* [Laravel docs about events](http://laravel.com/docs/10.0/events)
 * [Laracasts video on events in Laravel 5](https://laracasts.com/lessons/laravel-5-events)
 
 ## 4. Configuration setup

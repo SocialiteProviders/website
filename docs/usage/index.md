@@ -58,7 +58,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Event::listen(function (\SocialiteProviders\Manager\SocialiteWasCalled $event) {
-            $event->extendSocialite('discord', \SocialiteProviders\Steam\Provider::class);
+            $event->extendSocialite('discord', \SocialiteProviders\Discord\Provider::class);
         });
     }
 }

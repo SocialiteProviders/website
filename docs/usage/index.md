@@ -12,11 +12,25 @@ composer require socialiteproviders/zoho
 
 ## 2. Service Provider
 
-* Remove `Laravel\Socialite\SocialiteServiceProvider` from your `providers[]` array in `config\app.php` if you have added it already.
+* Remove `Laravel\Socialite\SocialiteServiceProvider` if you have added it already.
 
-* Add `\SocialiteProviders\Manager\ServiceProvider::class` to your `providers[]` array in `config\app.php`.
+* Add `\SocialiteProviders\Manager\ServiceProvider::class`.
 
-For example:
+### For example in Laravel 11+
+
+In `bootstrap/providers.php`.
+
+``` php
+return [
+    // a whole bunch of providers
+    // remove 'Laravel\Socialite\SocialiteServiceProvider',
+    \SocialiteProviders\Manager\ServiceProvider::class, // add
+];
+```
+
+### For example in Laravel 10 or below
+
+In `config\app.php`.
 
 ``` php
 'providers' => [

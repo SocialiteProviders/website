@@ -1,6 +1,6 @@
 # Socialite Providers Website
 
-Our site is built with [Vuepress](https://vuepress.vuejs.org/). 
+Our site is built with [Vuepress](https://vuepress.vuejs.org/).
 
 
 ## Building

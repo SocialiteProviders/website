@@ -266,6 +266,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Ivao', name: 'IVAO',
+        maintainers: [],
+      },
+      {
         slug: 'Lichess', name: 'Lichess',
         maintainers: ['Waxmatuct'],
       },

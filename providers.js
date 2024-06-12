@@ -633,6 +633,10 @@ module.exports = [
         slug: 'UCL', name: 'UCL',
         maintainers: [],
       },
+      {
+        slug: 'UAEPass', name: 'UAEPass',
+        maintainers: ['ahaneef29'], 
+      },
     ],
   },
   {

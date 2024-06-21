@@ -186,6 +186,10 @@ module.exports = [
         maintainers: ['Max13'],
       },
       {
+        slug: 'Threads', name: 'Threads',
+        maintainers: ['nickbeen'],
+      },
+      {
         slug: 'TikTok', name: 'TikTok',
         maintainers: ['tombanksme'],
       },

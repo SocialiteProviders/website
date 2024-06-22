@@ -286,7 +286,7 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'Start.gg', name: 'Start.gg',
+        slug: 'StartGg', name: 'Start.gg',
         maintainers: ['nickbeen'],
       },
       {

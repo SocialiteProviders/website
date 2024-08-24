@@ -253,6 +253,10 @@ module.exports = [
         slug: 'Zalo', name: 'Zalo',
         maintainers: [],
       },
+      {
+        slug: 'Zitadel', name: 'Zitadel',
+        maintainers: ['tbhaxor'],
+      },
     ],
   },
   {

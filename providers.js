@@ -715,6 +715,10 @@ module.exports = [
         slug: 'Xero', name: 'Xero',
         maintainers: [],
       },
+      {
+        slug: 'YNAB', name: 'You Need A Budget',
+        maintainers: ['cwilby']
+      }
     ],
   },
   {

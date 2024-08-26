@@ -34,6 +34,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'EduID', name: 'EduID',
+        maintainers: ['raphaelportmann'],
+      },
+      {
         slug: 'Facebook', name: 'Facebook',
         maintainers: [],
       },

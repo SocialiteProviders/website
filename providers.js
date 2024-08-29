@@ -34,10 +34,6 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'EduID', name: 'EduID',
-        maintainers: ['raphaelportmann'],
-      },
-      {
         slug: 'Facebook', name: 'Facebook',
         maintainers: [],
       },
@@ -336,6 +332,10 @@ module.exports = [
       {
         slug: 'Dataporten', name: 'Dataporten',
         maintainers: [],
+      },
+      {
+        slug: 'EduID', name: 'EduID',
+        maintainers: ['raphaelportmann'],
       },
       {
         slug: 'App.net', name: 'AppNet',

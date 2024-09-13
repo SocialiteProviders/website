@@ -558,6 +558,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Salla', name: 'Salla',
+        maintainers: ['ghmoha'],
+      },
+      {
         slug: 'SharePoint', name: 'SharePoint',
         maintainers: [],
       },
@@ -647,7 +651,7 @@ module.exports = [
       },
       {
         slug: 'UAEPass', name: 'UAEPass',
-        maintainers: ['ahaneef29'], 
+        maintainers: ['ahaneef29'],
       },
     ],
   },

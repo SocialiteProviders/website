@@ -317,6 +317,10 @@ module.exports = [
         slug: 'Vatsim', name: 'VATSIM',
         maintainers: [],
       },
+      {
+        slug: 'Roblox', name: 'Roblox',
+        maintainers: ['sympact06'],
+      },
     ],
   },
   {

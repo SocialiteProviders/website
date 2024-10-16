@@ -256,69 +256,47 @@ module.exports = [
     ],
   },
   {
-    name: 'Gaming', providers: [
-      {
-        slug: 'Battle.net', name: 'Battlenet',
-        maintainers: [],
-      },
-      {
-        slug: 'Discord', name: 'Discord',
-        maintainers: [],
-      },
-      {
-        slug: 'Eveonline', name: 'Eveonline',
-        maintainers: [],
-      },
-      {
-        slug: 'Ivao', name: 'IVAO',
-        maintainers: [],
-      },
-      {
-        slug: 'Lichess', name: 'Lichess',
-        maintainers: ['Waxmatuct'],
-      },
-      {
-        slug: 'Minecraft', name: 'Minecraft',
-        maintainers: ['Katzen48'],
-      },
-      {
-        slug: 'ProjectV', name: 'ProjectV',
-        maintainers: [],
-      },
-      {
-        slug: 'Smashcast', name: 'Smashcast',
-        maintainers: [],
-      },
-      {
-        slug: 'StartGg', name: 'Start.gg',
-        maintainers: ['nickbeen'],
-      },
-      {
-        slug: 'Steam', name: 'Steam',
-        maintainers: [],
-      },
-      {
-        slug: 'StreamElements', name: 'StreamElements',
-        maintainers: ['robiiinos'],
-      },
-      {
-        slug: 'Streamlabs', name: 'Streamlabs',
-        maintainers: ['robiiinos'],
-      },
-      {
-        slug: 'Twitch', name: 'Twitch',
-        maintainers: [],
-      },
-      {
-        slug: 'Vatsim', name: 'VATSIM',
-        maintainers: [],
-      },
-      {
-        slug: 'Roblox', name: 'Roblox',
-        maintainers: ['sympact06'],
-      },
-    ],
+name: 'Gaming', providers: [
+  {
+    slug: 'Battle.net', name: 'Battlenet',
+    maintainers: [],
   },
+  {
+    slug: 'Discord', name: 'Discord',
+    maintainers: [],
+  },
+  {
+    slug: 'Eveonline', name: 'Eveonline',
+    maintainers: [],
+  },
+  {
+    slug: 'Ivao', name: 'IVAO',
+    maintainers: [],
+  },
+  {
+    slug: 'Lichess', name: 'Lichess',
+    maintainers: ['Waxmatuct'],
+  },
+  {
+    slug: 'Minecraft', name: 'Minecraft',
+    maintainers: ['Katzen48'],
+  },
+  {
+    slug: 'ProjectV', name: 'ProjectV',
+    maintainers: [],
+  },
+  {
+    slug: 'Roblox', name: 'Roblox',
+    maintainers: ['sympact06'],
+  },
+  {
+    slug: 'Smashcast', name: 'Smashcast',
+    maintainers: [],
+  },
+  {
+    slug: 'StartGg', name: 'Start.gg',
+    maintain
+
   {
     name: 'Education / Career', providers: [
       {

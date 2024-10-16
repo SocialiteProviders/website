@@ -22,6 +22,10 @@ module.exports = [
         maintainers: ['ignaciojcano'],
       },
       {
+        slug: 'ClickUp', name: 'ClickUp',
+        maintainers: ['Lukasss93'],
+      },
+      {
         slug: 'Dailymotion', name: 'Dailymotion',
         maintainers: [],
       },

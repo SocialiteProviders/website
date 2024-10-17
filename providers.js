@@ -296,7 +296,7 @@ name: 'Gaming', providers: [
   {
     slug: 'StartGg', name: 'Start.gg',
     maintain
-
+  },
   {
     name: 'Education / Career', providers: [
       {
@@ -621,7 +621,7 @@ name: 'Gaming', providers: [
       },
       {
         slug: 'UAEPass', name: 'UAEPass',
-        maintainers: ['ahaneef29'], 
+        maintainers: ['ahaneef29'],
       },
     ],
   },

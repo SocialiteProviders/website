@@ -22,6 +22,10 @@ module.exports = [
         maintainers: ['ignaciojcano'],
       },
       {
+        slug: 'ClickUp', name: 'ClickUp',
+        maintainers: ['Lukasss93'],
+      },
+      {
         slug: 'Dailymotion', name: 'Dailymotion',
         maintainers: [],
       },
@@ -253,6 +257,10 @@ module.exports = [
         slug: 'Zalo', name: 'Zalo',
         maintainers: [],
       },
+      {
+        slug: 'Zitadel', name: 'Zitadel',
+        maintainers: ['tbhaxor'],
+      },
     ],
   },
   {
@@ -310,6 +318,10 @@ name: 'Gaming', providers: [
       {
         slug: 'Dataporten', name: 'Dataporten',
         maintainers: [],
+      },
+      {
+        slug: 'EduID', name: 'EduID',
+        maintainers: ['raphaelportmann'],
       },
       {
         slug: 'App.net', name: 'AppNet',
@@ -532,6 +544,10 @@ name: 'Gaming', providers: [
         maintainers: [],
       },
       {
+        slug: 'Salla', name: 'Salla',
+        maintainers: ['ghmoha'],
+      },
+      {
         slug: 'SharePoint', name: 'SharePoint',
         maintainers: [],
       },
@@ -693,6 +709,10 @@ name: 'Gaming', providers: [
         slug: 'Xero', name: 'Xero',
         maintainers: [],
       },
+      {
+        slug: 'YNAB', name: 'You Need A Budget',
+        maintainers: ['cwilby']
+      }
     ],
   },
   {

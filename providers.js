@@ -522,6 +522,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Nuvemshop', name: 'Nuvemshop',
+        maintainers: ['jmmidia'],
+      },
+      {
         slug: 'OSChina', name: 'OSChina',
         maintainers: [],
       },

@@ -182,10 +182,6 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'SURFconext', name: 'SURFconext',
-        maintainers: [],
-      },
-      {
         slug: 'Telegram', name: 'Telegram',
         maintainers: ['Max13'],
       },
@@ -367,6 +363,10 @@ module.exports = [
       },
       {
         slug: 'StockTwits', name: 'StockTwits',
+        maintainers: [],
+      },
+      {
+        slug: 'SURFconext', name: 'SURFconext',
         maintainers: [],
       },
       {

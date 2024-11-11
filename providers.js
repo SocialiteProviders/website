@@ -182,10 +182,6 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'SURFconext', name: 'SURFconext',
-        maintainers: [],
-      },
-      {
         slug: 'Telegram', name: 'Telegram',
         maintainers: ['Max13'],
       },
@@ -352,6 +348,10 @@ name: 'Gaming', providers: [
         maintainers: [],
       },
       {
+        slug: 'SURFconext', name: 'SURFconext',
+        maintainers: [],
+      },
+      {
         slug: 'Usos', name: 'USOS',
         maintainers: [],
       },
@@ -502,6 +502,10 @@ name: 'Gaming', providers: [
       {
         slug: 'Notion', name: 'Notion',
         maintainers: [],
+      },
+      {
+        slug: 'Nuvemshop', name: 'Nuvemshop',
+        maintainers: ['jmmidia'],
       },
       {
         slug: 'OSChina', name: 'OSChina',

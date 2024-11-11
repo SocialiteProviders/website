@@ -260,47 +260,49 @@ module.exports = [
     ],
   },
   {
-name: 'Gaming', providers: [
-  {
-    slug: 'Battle.net', name: 'Battlenet',
-    maintainers: [],
-  },
-  {
-    slug: 'Discord', name: 'Discord',
-    maintainers: [],
-  },
-  {
-    slug: 'Eveonline', name: 'Eveonline',
-    maintainers: [],
-  },
-  {
-    slug: 'Ivao', name: 'IVAO',
-    maintainers: [],
-  },
-  {
-    slug: 'Lichess', name: 'Lichess',
-    maintainers: ['Waxmatuct'],
-  },
-  {
-    slug: 'Minecraft', name: 'Minecraft',
-    maintainers: ['Katzen48'],
-  },
-  {
-    slug: 'ProjectV', name: 'ProjectV',
-    maintainers: [],
-  },
-  {
-    slug: 'Roblox', name: 'Roblox',
-    maintainers: ['sympact06'],
-  },
-  {
-    slug: 'Smashcast', name: 'Smashcast',
-    maintainers: [],
-  },
-  {
-    slug: 'StartGg', name: 'Start.gg',
-    maintain
-  },
+    name: 'Gaming', providers: [
+      {
+        slug: 'Battle.net', name: 'Battlenet',
+        maintainers: [],
+      },
+      {
+        slug: 'Discord', name: 'Discord',
+        maintainers: [],
+      },
+      {
+        slug: 'Eveonline', name: 'Eveonline',
+        maintainers: [],
+      },
+      {
+        slug: 'Ivao', name: 'IVAO',
+        maintainers: [],
+      },
+      {
+        slug: 'Lichess', name: 'Lichess',
+        maintainers: ['Waxmatuct'],
+      },
+      {
+        slug: 'Minecraft', name: 'Minecraft',
+        maintainers: ['Katzen48'],
+      },
+      {
+        slug: 'ProjectV', name: 'ProjectV',
+        maintainers: [],
+      },
+      {
+        slug: 'Roblox', name: 'Roblox',
+        maintainers: ['sympact06'],
+      },
+      {
+        slug: 'Smashcast', name: 'Smashcast',
+        maintainers: [],
+      },
+      {
+        slug: 'StartGg', name: 'Start.gg',
+        maintainers: [], // Fixed: Changed 'maintain' to 'maintainers' and provided an empty array
+      },
+    ], // Closed the 'providers' array for 'Gaming'
+  }, // Closed the 'Gaming' category object
   {
     name: 'Education / Career', providers: [
       {
@@ -843,4 +845,4 @@ name: 'Gaming', providers: [
       },
     ],
   },
-]
+];

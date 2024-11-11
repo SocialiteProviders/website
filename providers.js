@@ -299,10 +299,10 @@ module.exports = [
       },
       {
         slug: 'StartGg', name: 'Start.gg',
-        maintainers: [], // Fixed: Changed 'maintain' to 'maintainers' and provided an empty array
+        maintainers: [], 
       },
-    ], // Closed the 'providers' array for 'Gaming'
-  }, // Closed the 'Gaming' category object
+    ], 
+  }, 
   {
     name: 'Education / Career', providers: [
       {

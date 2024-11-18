@@ -684,6 +684,10 @@ module.exports = [
         maintainers: ['m1guelpf'],
       },
       {
+        slug: 'Klarna', name: 'Klarna',
+        maintainers: ['taher435'],
+      },
+      {
         slug: 'MediaCube', name: 'MediaCube',
         maintainers: [],
       },

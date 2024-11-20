@@ -78,6 +78,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Infomaniak', name: 'Infomaniak',
+        maintainers: ['L3o-pold'],
+      },
+      {
         slug: 'Instagram', name: 'Instagram',
         maintainers: [],
       },

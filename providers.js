@@ -106,6 +106,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Kinde', name: 'Kinde',
+        maintainers: ['mikkokut'],
+      },
+      {
         slug: 'Laravel-Passport', name: 'LaravelPassport',
         maintainers: [],
       },

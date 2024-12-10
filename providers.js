@@ -154,6 +154,10 @@ module.exports = [
         maintainers: ['Tschucki'],
       },
       {
+        slug: 'PropelAuth', name: 'PropelAuth',
+        maintainers: ['pfvatterott'],
+      },
+      {
         slug: 'Pinterest', name: 'Pinterest',
         maintainers: [],
       },

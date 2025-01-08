@@ -470,6 +470,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'FreshBooks', name: 'FreshBooks',
+        maintainers: ['sobancodes'],
+      },
+      {
         slug: 'GettyImages', name: 'GettyImages',
         maintainers: [],
       },

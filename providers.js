@@ -434,6 +434,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Calendly', name: 'Calendly',
+        maintainers: ['paulchrisluke'],
+      },
+      {
         slug: 'CampaignMonitor', name: 'CampaignMonitor',
         maintainers: [],
       },

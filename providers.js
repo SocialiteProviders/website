@@ -446,6 +446,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Crowdin', name: 'Crowdin',
+        maintainers: ['WentTheFox'],
+      },
+      {
         slug: 'DigitalOcean', name: 'DigitalOcean',
         maintainers: [],
       },

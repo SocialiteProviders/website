@@ -674,6 +674,10 @@ module.exports = [
         maintainers: ['mzur'],
       },
       {
+        slug: 'NFDILogin', name: 'NFDI Login',
+        maintainers: ['mzur'],
+      },
+      {
         slug: 'UCL', name: 'UCL',
         maintainers: [],
       },

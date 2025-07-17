@@ -186,7 +186,7 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'sapo-id', name: 'SAPOID',
+        slug: 'SapoId', name: 'SAPOID',
         maintainers: ['javcorreia'],
       },
       {

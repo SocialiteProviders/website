@@ -186,6 +186,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'SapoId', name: 'SAPOID',
+        maintainers: ['javcorreia'],
+      },
+      {
         slug: 'Snapchat', name: 'Snapchat',
         maintainers: [],
       },

@@ -602,6 +602,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Slack', name: 'Slack',
+        maintainers: [],
+      },
+      {
         slug: 'SuperOffice', name: 'SuperOffice',
         maintainers: ['SuperDJ'],
       },

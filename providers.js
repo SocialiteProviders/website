@@ -174,6 +174,10 @@ module.exports = [
         maintainers: ['duncanmcclean'],
       },
       {
+        slug: 'PocketID', name: 'Pocket ID',
+        maintainers: ['brufdev'],
+      },
+      {
         slug: 'Pushbullet', name: 'Pushbullet',
         maintainers: [],
       },

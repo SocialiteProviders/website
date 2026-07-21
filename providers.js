@@ -2,7 +2,19 @@ module.exports = [
   {
     name: 'Social / Platform', providers: [
       {
+        slug: 'Adobe', name: 'Adobe',
+        maintainers: [],
+      },
+      {
+        slug: 'Amazon', name: 'Amazon',
+        maintainers: [],
+      },
+      {
         slug: 'Apple', name: 'Apple',
+        maintainers: [],
+      },
+      {
+        slug: 'Auth0', name: 'Auth0',
         maintainers: [],
       },
       {
@@ -14,12 +26,8 @@ module.exports = [
         maintainers: ['rf152'],
       },
       {
-        slug: 'Auth0', name: 'Auth0',
+        slug: 'AzureADB2C', name: 'Azure AD B2C',
         maintainers: [],
-      },
-      {
-        slug: 'Cognito', name: 'Cognito',
-        maintainers: ['JamesSiebert'],
       },
       {
         slug: 'Clerk', name: 'Clerk',
@@ -30,15 +38,27 @@ module.exports = [
         maintainers: ['Lukasss93'],
       },
       {
+        slug: 'Cognito', name: 'Cognito',
+        maintainers: ['JamesSiebert'],
+      },
+      {
         slug: 'Dailymotion', name: 'Dailymotion',
         maintainers: [],
       },
       {
-        slug: 'Deviantart', name: 'Deviantart',
+        slug: 'deviantART', name: 'Deviantart',
+        maintainers: [],
+      },
+      {
+        slug: 'Didit', name: 'Didit',
         maintainers: [],
       },
       {
         slug: 'Dribbble', name: 'Dribbble',
+        maintainers: [],
+      },
+      {
+        slug: 'Duo', name: 'Duo',
         maintainers: [],
       },
       {
@@ -122,6 +142,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Mediawiki', name: 'MediaWiki',
+        maintainers: [],
+      },
+      {
         slug: 'Medium', name: 'Medium',
         maintainers: [],
       },
@@ -142,6 +166,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Nextcloud', name: 'Nextcloud',
+        maintainers: [],
+      },
+      {
         slug: 'OAuthgen', name: 'OAuthgen',
         maintainers: [],
       },
@@ -154,12 +182,8 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'Pr0gramm', name: 'pr0gramm',
-        maintainers: ['Tschucki'],
-      },
-      {
-        slug: 'PropelAuth', name: 'PropelAuth',
-        maintainers: ['pfvatterott'],
+        slug: 'Onelogin', name: 'OneLogin',
+        maintainers: [],
       },
       {
         slug: 'Pinterest', name: 'Pinterest',
@@ -172,6 +196,18 @@ module.exports = [
       {
         slug: 'PlanningCenter', name: 'Planning Center',
         maintainers: ['duncanmcclean'],
+      },
+      {
+        slug: 'PocketID', name: 'Pocket ID',
+        maintainers: [],
+      },
+      {
+        slug: 'Pr0gramm', name: 'pr0gramm',
+        maintainers: ['Tschucki'],
+      },
+      {
+        slug: 'PropelAuth', name: 'PropelAuth',
+        maintainers: ['pfvatterott'],
       },
       {
         slug: 'Pushbullet', name: 'Pushbullet',
@@ -202,8 +238,16 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Subscribestar', name: 'SubscribeStar',
+        maintainers: [],
+      },
+      {
         slug: 'Telegram', name: 'Telegram',
         maintainers: ['Max13'],
+      },
+      {
+        slug: 'TelegramWebApp', name: 'Telegram Web App',
+        maintainers: [],
       },
       {
         slug: 'Threads', name: 'Threads',
@@ -214,6 +258,10 @@ module.exports = [
         maintainers: ['tombanksme'],
       },
       {
+        slug: 'Toyhouse', name: 'Toyhouse',
+        maintainers: [],
+      },
+      {
         slug: 'Tumblr', name: 'Tumblr',
         maintainers: [],
       },
@@ -222,11 +270,19 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Ufutx', name: 'Ufutx',
+        maintainers: [],
+      },
+      {
         slug: 'Vimeo', name: 'Vimeo',
         maintainers: [],
       },
       {
         slug: 'VKontakte', name: 'VK',
+        maintainers: [],
+      },
+      {
+        slug: 'VKID', name: 'VK ID',
         maintainers: [],
       },
       {
@@ -266,6 +322,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Yiban', name: 'Yiban',
+        maintainers: [],
+      },
+      {
         slug: 'YouTube', name: 'YouTube',
         maintainers: [],
       },
@@ -294,7 +354,15 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Faceit', name: 'FACEIT',
+        maintainers: [],
+      },
+      {
         slug: 'Ivao', name: 'IVAO',
+        maintainers: [],
+      },
+      {
+        slug: 'Kick', name: 'Kick',
         maintainers: [],
       },
       {
@@ -307,6 +375,10 @@ module.exports = [
       },
       {
         slug: 'ProjectV', name: 'ProjectV',
+        maintainers: [],
+      },
+      {
+        slug: 'Roblox', name: 'Roblox',
         maintainers: [],
       },
       {
@@ -330,6 +402,10 @@ module.exports = [
         maintainers: ['robiiinos'],
       },
       {
+        slug: 'Trovo', name: 'Trovo',
+        maintainers: [],
+      },
+      {
         slug: 'Twitch', name: 'Twitch',
         maintainers: [],
       },
@@ -346,6 +422,14 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'App.net', name: 'AppNet',
+        maintainers: [],
+      },
+      {
+        slug: 'Blackboard', name: 'Blackboard',
+        maintainers: [],
+      },
+      {
         slug: 'Coursera', name: 'Coursera',
         maintainers: [],
       },
@@ -358,11 +442,15 @@ module.exports = [
         maintainers: ['raphaelportmann'],
       },
       {
-        slug: 'App.net', name: 'AppNet',
+        slug: 'Goodreads', name: 'Goodreads',
         maintainers: [],
       },
       {
-        slug: 'Goodreads', name: 'Goodreads',
+        slug: 'HabrCareer', name: 'Habr Career',
+        maintainers: [],
+      },
+      {
+        slug: 'HarID', name: 'HarID',
         maintainers: [],
       },
       {
@@ -374,7 +462,23 @@ module.exports = [
         maintainers: ['sahapranta'],
       },
       {
+        slug: 'Instructure', name: 'Instructure',
+        maintainers: [],
+      },
+      {
         slug: 'MoiKrug', name: 'MoiKrug',
+        maintainers: [],
+      },
+      {
+        slug: 'NFDILogin', name: 'NFDI Login',
+        maintainers: [],
+      },
+      {
+        slug: 'Orcid', name: 'ORCID',
+        maintainers: [],
+      },
+      {
+        slug: 'Rekono', name: 'Rekono',
         maintainers: [],
       },
       {
@@ -402,11 +506,19 @@ module.exports = [
   {
     name: 'Productivity / Business', providers: [
       {
-        slug: 'Asana', name: 'Asana',
+        slug: '37Signals', name: '37Signals',
         maintainers: [],
       },
       {
-        slug: '37Signals', name: '37Signals',
+        slug: 'Aikido', name: 'Aikido',
+        maintainers: [],
+      },
+      {
+        slug: 'AmoCRM', name: 'amoCRM',
+        maintainers: [],
+      },
+      {
+        slug: 'Asana', name: 'Asana',
         maintainers: [],
       },
       {
@@ -418,11 +530,15 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'Bit.ly', name: 'Bitly',
+        slug: 'Bexio', name: 'Bexio',
         maintainers: [],
       },
       {
         slug: 'Bitbucket', name: 'Bitbucket',
+        maintainers: [],
+      },
+      {
+        slug: 'Bit.ly', name: 'Bitly',
         maintainers: [],
       },
       {
@@ -435,6 +551,10 @@ module.exports = [
       },
       {
         slug: 'Buffer', name: 'Buffer',
+        maintainers: [],
+      },
+      {
+        slug: 'Calendly', name: 'Calendly',
         maintainers: [],
       },
       {
@@ -462,6 +582,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'DocuSign', name: 'DocuSign',
+        maintainers: [],
+      },
+      {
         slug: 'Dropbox', name: 'Dropbox',
         maintainers: [],
       },
@@ -482,11 +606,23 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Figma', name: 'Figma',
+        maintainers: [],
+      },
+      {
+        slug: 'Flexmls', name: 'Flexmls',
+        maintainers: [],
+      },
+      {
         slug: 'GettyImages', name: 'GettyImages',
         maintainers: [],
       },
       {
         slug: 'Gitee', name: 'Gitee',
+        maintainers: [],
+      },
+      {
+        slug: 'GoHighLevel', name: 'GoHighLevel',
         maintainers: [],
       },
       {
@@ -502,7 +638,11 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'Human-Api', name: 'Human API',
+        slug: 'Human-API', name: 'Human API',
+        maintainers: [],
+      },
+      {
+        slug: 'Imis', name: 'iMIS',
         maintainers: [],
       },
       {
@@ -510,7 +650,23 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Kit', name: 'Kit',
+        maintainers: [],
+      },
+      {
+        slug: 'Kommo', name: 'Kommo',
+        maintainers: [],
+      },
+      {
+        slug: 'Linear', name: 'Linear',
+        maintainers: [],
+      },
+      {
         slug: 'LinkedIn', name: 'LinkedIn',
+        maintainers: [],
+      },
+      {
+        slug: 'Linode', name: 'Linode',
         maintainers: [],
       },
       {
@@ -542,6 +698,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Neto', name: 'Neto',
+        maintainers: [],
+      },
+      {
         slug: 'Notion', name: 'Notion',
         maintainers: [],
       },
@@ -550,12 +710,20 @@ module.exports = [
         maintainers: ['jmmidia'],
       },
       {
+        slug: 'OnlineScoutManager', name: 'Online Scout Manager',
+        maintainers: [],
+      },
+      {
         slug: 'OSChina', name: 'OSChina',
         maintainers: [],
       },
       {
         slug: 'Ovh', name: 'OVH',
         maintainers: ['Max13'],
+      },
+      {
+        slug: 'Paymenter', name: 'Paymenter',
+        maintainers: [],
       },
       {
         slug: 'Pipedrive', name: 'Pipedrive',
@@ -590,6 +758,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Salesloft', name: 'Salesloft',
+        maintainers: [],
+      },
+      {
         slug: 'Salla', name: 'Salla',
         maintainers: ['ghmoha'],
       },
@@ -610,11 +782,19 @@ module.exports = [
         maintainers: ['SuperDJ'],
       },
       {
+        slug: 'Tailscale', name: 'Tailscale',
+        maintainers: [],
+      },
+      {
         slug: 'Teamleader', name: 'Teamleader',
         maintainers: [],
       },
       {
         slug: 'Teamweek', name: 'Teamweek',
+        maintainers: [],
+      },
+      {
+        slug: 'TikTokShop', name: 'TikTok Shop',
         maintainers: [],
       },
       {
@@ -638,8 +818,16 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Wave', name: 'Wave',
+        maintainers: [],
+      },
+      {
         slug: 'Webex', name: 'Webex',
         maintainers: ['askmrsinh'],
+      },
+      {
+        slug: 'Webflow', name: 'Webflow',
+        maintainers: [],
       },
       {
         slug: 'Whmcs', name: 'WHMCS',
@@ -682,12 +870,16 @@ module.exports = [
         maintainers: ['mzur'],
       },
       {
+        slug: 'UAEPass', name: 'UAEPass',
+        maintainers: ['ahaneef29'],
+      },
+      {
         slug: 'UCL', name: 'UCL',
         maintainers: [],
       },
       {
-        slug: 'UAEPass', name: 'UAEPass',
-        maintainers: ['ahaneef29'],
+        slug: 'UFS', name: 'UFS',
+        maintainers: [],
       },
     ],
   },
@@ -695,16 +887,14 @@ module.exports = [
     name: 'Payments', providers: [
       {
         slug: 'Binance', name: 'Binance',
-        maintainers: [
-          'robiiinos',
-        ],
-      },
-      {
-        slug: 'Coinbase', name: 'Coinbase',
-        maintainers: [],
+        maintainers: ['robiiinos'],
       },
       {
         slug: 'Clover', name: 'Clover',
+        maintainers: [],
+      },
+      {
+        slug: 'Coinbase', name: 'Coinbase',
         maintainers: [],
       },
       {
@@ -716,7 +906,11 @@ module.exports = [
         maintainers: ['taher435'],
       },
       {
-        slug: 'MediaCube', name: 'MediaCube',
+        slug: 'Mediacube', name: 'MediaCube',
+        maintainers: [],
+      },
+      {
+        slug: 'MercadoPago', name: 'MercadoPago',
         maintainers: [],
       },
       {
@@ -726,6 +920,10 @@ module.exports = [
       {
         slug: 'Monzo', name: 'Monzo',
         maintainers: ['warksit'],
+      },
+      {
+        slug: 'Nocks', name: 'Nocks',
+        maintainers: [],
       },
       {
         slug: 'Patreon', name: 'Patreon',
@@ -765,8 +963,12 @@ module.exports = [
       },
       {
         slug: 'YNAB', name: 'You Need A Budget',
-        maintainers: ['cwilby']
-      }
+        maintainers: ['cwilby'],
+      },
+      {
+        slug: 'Zettle', name: 'Zettle',
+        maintainers: [],
+      },
     ],
   },
   {
@@ -784,6 +986,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'MusicBrainz', name: 'MusicBrainz',
+        maintainers: [],
+      },
+      {
         slug: 'SoundCloud', name: 'SoundCloud',
         maintainers: [],
       },
@@ -795,6 +1001,14 @@ module.exports = [
   },
   {
     name: 'Misc', providers: [
+      {
+        slug: '23andme', name: '23andMe',
+        maintainers: [],
+      },
+      {
+        slug: '500px', name: '500px',
+        maintainers: [],
+      },
       {
         slug: 'Admitad', name: 'Admitad',
         maintainers: [],
@@ -816,8 +1030,16 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Exment', name: 'Exment',
+        maintainers: [],
+      },
+      {
         slug: 'Fablabs', name: 'Fablabs',
         maintainers: ['MacTwister'],
+      },
+      {
+        slug: 'Fiken', name: 'Fiken',
+        maintainers: [],
       },
       {
         slug: 'Fitbit', name: 'Fitbit',
@@ -832,11 +1054,19 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'OpenStreetMap', name: 'OpenStreetMap',
+        maintainers: [],
+      },
+      {
         slug: 'PeeringDB', name: 'PeeringDB',
         maintainers: [],
       },
       {
         slug: 'RunKeeper', name: 'RunKeeper',
+        maintainers: [],
+      },
+      {
+        slug: 'RunSignup', name: 'RunSignup',
         maintainers: [],
       },
       {
@@ -856,6 +1086,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'TwitCasting', name: 'TwitCasting',
+        maintainers: [],
+      },
+      {
         slug: 'Uber', name: 'Uber',
         maintainers: [],
       },
@@ -870,6 +1104,10 @@ module.exports = [
       {
         slug: 'Worldcoin', name: 'Worldcoin',
         maintainers: ['m1guelpf'],
+      },
+      {
+        slug: 'xREL', name: 'xREL',
+        maintainers: [],
       },
     ],
   },

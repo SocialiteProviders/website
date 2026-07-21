@@ -337,6 +337,10 @@ module.exports = [
         slug: 'Zitadel', name: 'Zitadel',
         maintainers: ['tbhaxor'],
       },
+      {
+        slug: 'Logto', name: 'Logto',
+        maintainers: [],
+      },
     ],
   },
   {
@@ -411,6 +415,10 @@ module.exports = [
       },
       {
         slug: 'Vatsim', name: 'VATSIM',
+        maintainers: [],
+      },
+      {
+        slug: 'EpicGames', name: 'Epic Games',
         maintainers: [],
       },
     ],

@@ -11,7 +11,42 @@ title: Contribute
 * Create a composer.json file and add <em>socialiteproviders/manager</em> (<a href="https://github.com/SocialiteProviders/Manager">See the manager package.</a>) in the "require" section.
 * If using OAuth1 you need to also create a server class.
 * Generate documentation for the provider by running `docgen.php` in the `tools` folder. (and customise if required).
-* Add the provider to the `monorepo-builder.yml` subtree split config in the repository root.
+* Set the `category` in the README frontmatter (see below).
+* If the provider's repository name differs from its `src/` directory name, add it to `split-overrides.json` in the repository root.
+
+### Provider category
+
+Each provider's `README.md` starts with a frontmatter block that tells the
+website which category to list the provider under:
+
+```markdown
+---
+category: Productivity / Business
+---
+
+# YourProvider
+```
+
+`docgen.php` writes this for you with a default of `Misc` — change it to the
+category that fits best. The valid categories are the section headings in the
+sidebar:
+
+`Social / Platform`, `Gaming`, `Education / Career`, `Productivity / Business`,
+`Government / University`, `Payments`, `Music`, `Misc`
+
+You can also set an optional `name` to control how the provider is displayed if
+it should differ from the directory name:
+
+```markdown
+---
+category: Payments
+name: My Payment Provider
+---
+```
+
+Once your PR is merged with the `new-provider` label, the provider is added to
+this website automatically — you don't need to open a PR against the website
+repo. The frontmatter itself is stripped from the rendered page.
 
 To speed up the creation of your provider you can use the <a href="https://github.com/SocialiteProviders/Generators">generator</a>.
 

@@ -1,5 +1,13 @@
 const categories = require('../../providers')
 
+// Provider READMEs may carry YAML frontmatter (e.g. `category`) used by the
+// tooling in SocialiteProviders/Providers. Strip it before the content is
+// prepended to, since frontmatter is only parsed when it starts at line 1 —
+// otherwise the `---` is read as a setext underline and the keys render as a
+// heading on the page.
+const stripFrontmatter = md =>
+  typeof md === 'string' ? md.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '') : md
+
 const generatedSidebar = categories.map(cat => {
   return {
     title: cat.name,
@@ -60,7 +68,7 @@ module.exports = {
         let content
         try {
           const res = await axios.get(`https://raw.githubusercontent.com/SocialiteProviders/${provider.slug}/master/README.md`)
-          content = res.data
+          content = stripFrontmatter(res.data)
           console.log(`Fetched readme for ${provider.slug}`)
         } catch (e) {
           console.error(`Failed to fetch readme for ${provider.slug}: ${e}`)

@@ -32,8 +32,16 @@ Once it has run, there are three things the tool can't do for you:
 The generated `README.md` is a starting point, not the finished article — customise it for
 anything specific to the provider, such as required scopes or non-obvious config.
 
-You don't need to register the provider anywhere. Splitting to a standalone repo is automatic:
-new `src/*` directories are detected from the merge commit and split out on release.
+Splitting to a standalone repo is automatic: new `src/*` directories are detected from the merge
+commit and split out on release. The one exception is when the published repository name differs
+from the `src/` directory name — `Battlenet` is published as `Battle.net`, for instance. Those
+need an entry in `split-overrides.json` at the repository root, keyed by directory name:
+
+```json
+{
+    "Battlenet": "Battle.net"
+}
+```
 
 Look at the already created <a href="#providers">providers</a> and the
 <a href="https://github.com/SocialiteProviders/Manager">Manager</a> package for inspiration.
@@ -63,6 +71,20 @@ It must be one of:
 
 Anything else is rejected when the provider is merged, so a near-miss like `Business` will fail.
 The scaffolding tool validates your answer, but a README edited by hand gets no such check.
+
+An optional `name` key controls how the provider is displayed here, when that should differ from
+the directory name:
+
+```markdown
+---
+category: Payments
+name: My Payment Provider
+---
+```
+
+Listing happens on merge, once the pull request carries the `new-provider` label — you don't need
+to open a pull request against this website repo. The frontmatter is stripped from the rendered
+page.
 
 ## Submitting a new provider
 

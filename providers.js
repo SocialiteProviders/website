@@ -2,7 +2,7 @@ module.exports = [
   {
     name: 'Generic', providers: [
       {
-        slug: 'openid-connect', name: 'OpenID Connect',
+        slug: 'OpenIDConnect', name: 'OpenID Connect',
         maintainers: ['adrum', 'atymic'],
       },
     ],

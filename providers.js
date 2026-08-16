@@ -622,6 +622,10 @@ module.exports = [
         maintainers: [],
       },
       {
+        slug: 'Frappe', name: 'Frappe / ERPNext',
+        maintainers: ['kayedspace'],
+      },
+      {
         slug: 'GettyImages', name: 'GettyImages',
         maintainers: [],
       },

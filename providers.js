@@ -1,5 +1,13 @@
 module.exports = [
   {
+    name: 'Generic', providers: [
+      {
+        slug: 'openid-connect', name: 'OpenID Connect',
+        maintainers: ['adrum', 'atymic'],
+      },
+    ],
+  },
+  {
     name: 'Social / Platform', providers: [
       {
         slug: 'Adobe', name: 'Adobe',

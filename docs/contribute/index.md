@@ -66,8 +66,11 @@ category: Misc
 
 It must be one of:
 
-`Social / Platform`, `Gaming`, `Education / Career`, `Productivity / Business`,
+`Generic`, `Social / Platform`, `Gaming`, `Education / Career`, `Productivity / Business`,
 `Government / University`, `Payments`, `Music`, `Misc`
+
+`Generic` is for providers that implement a protocol rather than a single service, such as
+OpenID Connect.
 
 Anything else is rejected when the provider is merged, so a near-miss like `Business` will fail.
 The scaffolding tool validates your answer, but a README edited by hand gets no such check.

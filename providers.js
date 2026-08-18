@@ -989,6 +989,10 @@ module.exports = [
         slug: 'Zettle', name: 'Zettle',
         maintainers: [],
       },
+      {
+        slug: 'Steady', name: 'Steady',
+        maintainers: [],
+      },
     ],
   },
   {

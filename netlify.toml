@@ -1,0 +1,8 @@
+[build]
+  command = "yarn build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18.20.4"
+  YARN_VERSION = "4.14.1"
+  NODE_OPTIONS = "--openssl-legacy-provider"

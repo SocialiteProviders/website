@@ -2,3 +2,10 @@ docs/.vuepress/dist
 dist
 node_modules
 .idea
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.pnp.*

@@ -12,5 +12,6 @@
     "async": "^3.2.0",
     "axios": "^0.21.1",
     "vuepress-plugin-sitemap": "^2.3.1"
-  }
+  },
+  "packageManager": "yarn@4.14.1"
 }

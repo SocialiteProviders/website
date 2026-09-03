@@ -1,4 +1,5 @@
 const categories = require('../../providers')
+const { blogPages, applyBlogLastUpdated, sitemapDateFormatter } = require('./lib/blog')
 
 // Provider READMEs may carry YAML frontmatter (e.g. `category`) used by the
 // tooling in SocialiteProviders/Providers. Strip it before the content is
@@ -37,18 +38,25 @@ module.exports = {
       { text: 'Contribute', link: '/contribute/' },
       { text: 'Github', link: 'https://github.com/SocialiteProviders' },
       { text: 'Packagist', link: 'https://packagist.org/packages/socialiteproviders/' },
+      { text: 'Blog', link: '/blog/' },
     ],
-    sidebar: [
-      {
-        title: 'Documentation',
-        collapsable: false,
-        children: [
-          ['/about/', 'About / FAQ'],
-          ['/usage/', 'Installation & Usage'],
-          ['/contribute/', 'Contribute'],
-        ],
-      },
-    ].concat(generatedSidebar),
+    sidebar: {
+      '/blog/': [],
+      '/': [
+        {
+          title: 'Documentation',
+          collapsable: false,
+          children: [
+            ['/about/', 'About / FAQ'],
+            ['/usage/', 'Installation & Usage'],
+            ['/contribute/', 'Contribute'],
+          ],
+        },
+      ].concat(generatedSidebar),
+    },
+  },
+  extendPageData ($page) {
+    applyBlogLastUpdated($page)
   },
   async additionalPages () {
     let allProviders = []
@@ -63,7 +71,10 @@ module.exports = {
     const axios = require('axios')
     const { mapLimit } = require('async')
 
-    return await mapLimit(allProviders, 3, async (provider) => {
+    const blog = await blogPages()
+    module.exports.themeConfig.sidebar['/blog/'] = blog.sidebar
+
+    const providerPages = await mapLimit(allProviders, 3, async (provider) => {
       if (!global['REPO_CACHE']) global['REPO_CACHE'] = {}
 
       if (!global['REPO_CACHE'][provider.slug]) {
@@ -94,6 +105,8 @@ This provider is deprecated. Please see the [GitHub Repo](https://github.com/Soc
 
       return global['REPO_CACHE'][provider.slug]
     })
+
+    return providerPages.concat(blog.pages)
   },
   head: [
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-icon-180x180.png' }],
@@ -116,6 +129,8 @@ This provider is deprecated. Please see the [GitHub Repo](https://github.com/Soc
       'sitemap',
       {
         hostname: 'https://socialiteproviders.com',
+        exclude: ['/404.html'],
+        dateFormatter: sitemapDateFormatter,
       },
     ]
   ],

@@ -1,0 +1,45 @@
+.blog-post-meta
+  display flex
+  flex-wrap wrap
+  align-items center
+  gap 0.5rem
+  margin-top -0.6rem
+  margin-bottom 1.6rem
+
+.blog-post-date
+  color lighten($textColor, 25%)
+  font-size 0.85rem
+
+.blog-post-tag
+  background lighten($accentColor, 90%)
+  color darken($accentColor, 10%)
+  border-radius 3px
+  padding 0.1rem 0.45rem
+  font-size 0.72rem
+
+.blog-list
+  list-style none
+  padding-left 0
+
+  li
+    padding 0.85rem 0
+    border-bottom 1px solid $borderColor
+
+    &:last-child
+      border-bottom none
+
+  a
+    font-size 1.05rem
+    font-weight 600
+
+.blog-list-date
+  color lighten($textColor, 25%)
+  font-size 0.8rem
+  margin-left 0.5rem
+
+.blog-list-summary
+  display inline-block
+  margin-top 0.25rem
+  color lighten($textColor, 20%)
+  font-size 0.88rem
+  line-height 1.5

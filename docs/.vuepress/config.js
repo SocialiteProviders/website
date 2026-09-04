@@ -82,7 +82,6 @@ module.exports = {
         try {
           const res = await axios.get(`https://raw.githubusercontent.com/SocialiteProviders/${provider.slug}/master/README.md`)
           content = stripFrontmatter(res.data)
-          console.log(`Fetched readme for ${provider.slug}`)
         } catch (e) {
           console.error(`Failed to fetch readme for ${provider.slug}: ${e}`)
           content = ''

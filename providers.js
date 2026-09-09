@@ -993,6 +993,10 @@ module.exports = [
         slug: 'Steady', name: 'Steady',
         maintainers: [],
       },
+      {
+        slug: 'Vipps', name: 'Vipps',
+        maintainers: [],
+      },
     ],
   },
   {

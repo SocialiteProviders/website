@@ -166,10 +166,6 @@ module.exports = [
         maintainers: [],
       },
       {
-        slug: 'Microsoft-Azure', name: 'Microsoft Azure',
-        maintainers: [],
-      },
-      {
         slug: 'Naver', name: 'Naver',
         maintainers: [],
       },
@@ -1155,6 +1151,10 @@ module.exports = [
       },
       {
         slug: 'Jira', name: 'Jira',
+        maintainers: [],
+      },
+      {
+        slug: 'Microsoft-Azure', name: 'Microsoft Azure',
         maintainers: [],
       },
     ],
